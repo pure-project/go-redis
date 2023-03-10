@@ -1,3 +1,20 @@
+# pure go-redis
+
+**forked from github.com/redis/go-redis**
+
+
+
+- no test and extra (means no much dependencies)
+- go1.16 available
+- base on go-redis/v9.0.2 (support redis-7.x)
+- no any feature change, to use it just change import name.
+
+
+
+Original README:
+
+
+
 # Redis client for Go
 
 [![build workflow](https://github.com/redis/go-redis/actions/workflows/build.yml/badge.svg)](https://github.com/redis/go-redis/actions)
