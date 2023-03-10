@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/redis/go-redis/v9/internal"
-	"github.com/redis/go-redis/v9/internal/hscan"
-	"github.com/redis/go-redis/v9/internal/proto"
-	"github.com/redis/go-redis/v9/internal/util"
+	"github.com/pure-project/go-redis/v9/internal"
+	"github.com/pure-project/go-redis/v9/internal/hscan"
+	"github.com/pure-project/go-redis/v9/internal/proto"
+	"github.com/pure-project/go-redis/v9/internal/util"
 )
 
 type Cmder interface {
